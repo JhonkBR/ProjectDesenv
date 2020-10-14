@@ -11,6 +11,13 @@ namespace Fundamentos
             Maxima 
 
         }
+
+        struct Pessoa
+        {
+            public string nome;
+
+
+        }
         static void Main(string[] args)
         {
 
@@ -21,9 +28,13 @@ namespace Fundamentos
 
             object obj = 100;
             object Obj1 = "dsad";
+
+
             #endregion
 
+            #region Tipo enum
             Notas notasAlunos = Notas.Minimo;
+            #endregion
 
             #region tipo Const
             /*Utilizado para definir uma variável constante ou seja a partir que foi declarado o primeiro valor não poderá mais ser alterada*/
@@ -32,12 +43,25 @@ namespace Fundamentos
             // nome = "Diego"; // O sistema não permite alterar
             #endregion
 
-            #region Tpo Enum
+            #region Tipo Struct
 
+            Pessoa p1 = new Pessoa();
+
+            p1.nome = "Jhonata Cândido";
+
+            Pessoa p2 = new Pessoa();
+            p2.nome = "Rapariga";
+            //Console.WriteLine(p1.nome);
+            //Console.WriteLine();
 
             #endregion
 
 
-        }
+
+
+
+            Console.ReadKey();
+
+    }
     }
 }

@@ -27,6 +27,21 @@ namespace Fundamentos
         #region Tpo Enum
 
 
+
         #endregion
+
+
+            #region Tipo struct
+        struct Pessoa
+        {
+            public string nome;
+            public string sobrenome;
+            public int idade;
+            public double altura;
+        }
+        #endregion
+        Pessoa p1 = new Pessoa();
+        
+
     }
 }
