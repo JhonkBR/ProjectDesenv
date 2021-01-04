@@ -52,6 +52,9 @@ namespace Vetores
             Console.WriteLine(nome2[2]);
             #endregion
             Console.ReadKey();
+
+            // quando for separar uma classe, ou seja dividir uma classe em 2 arquivos você deve colocar o 
+            //commando partial na criação da nova classe complementadora da classe principal
         }
     }
 }
